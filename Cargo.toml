@@ -1,0 +1,11 @@
+[package]
+name = "memory-particles"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+piston_window = "*" # Game engine
+piston2d-graphics = "0.42" # Provides vector mathemathics (useful to simulate movement)
+rand = "0.8.5" # Provides a random numbers generator
